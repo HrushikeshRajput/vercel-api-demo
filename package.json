@@ -1,12 +1,15 @@
 {
   "name": "vercel-api-demo",
   "version": "1.0.0",
+  "description": "A simple serverless API deployed on Vercel",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev": "node api/hello.js",
+    "start": "node api/hello.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "keywords": ["vercel", "api", "serverless", "node"],
+  "author": "Hrushikesh Rajput",
+  "license": "ISC"
 }
